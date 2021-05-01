@@ -21,9 +21,9 @@ function App() {
             <GenSelector />
             <Switch>
               <Route exact path="https://samuele-png.github.io/pokewiki/" component={Pokedex} />
-              <Route exact path="https://samuele-png.github.io/generation/:generation" component={Pokedex} />
-              <Route path="https://samuele-png.github.io/pokemon/:id" component={PokemonDetails} />
-              <Route path="https://samuele-png.github.io/teambuilder" component={TeamBuilder} />
+              <Route exact path="https://samuele-png.github.io/pokewiki/generation/:generation" component={Pokedex} />
+              <Route path="https://samuele-png.github.io/pokewiki/pokemon/:id" component={PokemonDetails} />
+              <Route path="https://samuele-png.github.io/pokewiki/teambuilder" component={TeamBuilder} />
               ,\
             </Switch>
           </Fragment>
